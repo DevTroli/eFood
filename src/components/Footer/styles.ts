@@ -38,5 +38,5 @@ export const RedesSociais = styled.ul`
 export const Disclaimer = styled.p`
   text-align: center;
   font-size: 1rem;
-  width: 100%;
+  width: 720px;
 `
