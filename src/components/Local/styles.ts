@@ -2,16 +2,17 @@ import styled from 'styled-components'
 import { cores } from '../../style'
 
 export const Card = styled.div`
-  max-width: 480px;
+  max-width: 472px;
+  width: 100%;
   position: relative;
   background-color: ${cores.branco};
   border: 1px solid ${cores.rosa};
-  margin-bottom: 48px;
 
   img {
     width: 100%;
     height: 100%;
-    max-height: 220px;
+    max-width: 472px;
+    max-height: 217px;
     object-fit: cover;
   }
 
@@ -68,6 +69,6 @@ export const Tag = styled.span`
 export const Tags = styled.div`
   position: absolute;
   top: 16px;
-  right: 16px;
+  right: 8px;
   font-size: 12px;
 `

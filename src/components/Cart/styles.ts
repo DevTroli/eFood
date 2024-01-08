@@ -36,7 +36,7 @@ export const SideBar = styled.aside`
   background-color: ${cores.rosa};
   z-index: 1;
   width: 360px;
-  padding: 32px 16px 0 16px;
+  padding: 32px 8px 0 8px;
 
   .margin-top {
     margin-top: 24px;
@@ -45,10 +45,12 @@ export const SideBar = styled.aside`
   h3 {
     color: ${cores.rosaClaro};
     margin-bottom: 16px;
+    font-size: 18px;
   }
 
   > p {
     color: ${cores.rosaClaro};
+    font-size: 14px;
   }
 
   .center {
@@ -76,8 +78,13 @@ export const CartItem = styled.li`
     object-fit: cover;
   }
 
+  h4 {
+    font-size: 18px;
+  }
+
   p {
     margin: 16px 0 8px 0;
+    font-size: 14px;
   }
 
   div {
@@ -110,6 +117,7 @@ export const Botao = styled.button`
   cursor: pointer;
   margin-bottom: 8px;
   height: 24px;
+  font-size: 14px;
 `
 
 export const Conteudo = styled.form`
@@ -127,7 +135,7 @@ export const Row = styled.div`
   width: 100%;
   display: flex;
   flex: auto;
-  column-gap: 34px;
+  column-gap: 32px;
   margin-top: 8px;
 `
 
@@ -136,6 +144,7 @@ export const InputGroup = styled.div<Props>`
 
   label {
     margin-bottom: 8px;
+    font-size: 14px;
   }
 
   input {

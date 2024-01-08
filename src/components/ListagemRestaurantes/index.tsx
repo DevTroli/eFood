@@ -6,6 +6,12 @@ type Props = {
 }
 
 const RestaurantesList = ({ restaurantes }: Props) => {
+  const getDesricao = (descricao: string) => {
+    if (descricao.length > 270) {
+      return descricao.slice(0, 282) + '...'
+    }
+  }
+
   return (
     <Container>
       <div className="container">
@@ -19,7 +25,7 @@ const RestaurantesList = ({ restaurantes }: Props) => {
                 avaliacao={r.avaliacao}
                 tipo={r.tipo}
                 destacado={r.destacado}
-                descricao={r.descricao}
+                descricao={getDesricao(r.descricao) || ''}
               />
             </li>
           ))}

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { cores } from '../../style'
 
 export const Card = styled.div`
-  max-width: 320px;
+  width: 320px;
   max-height: 340px;
   padding: 8px;
   background-color: ${cores.rosa};
@@ -11,8 +11,8 @@ export const Card = styled.div`
 
 export const Imagem = styled.img`
   object-fit: cover;
-  width: 100%;
-  height: 200px;
+  width: 304px;
+  height: 167px;
 
   @media (max-width: 768px) {
     object-fit: cover;
@@ -49,6 +49,8 @@ export const Botao = styled.button`
   border: none;
   background-color: ${cores.rosaClaro};
   cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
 `
 
 export const Modal = styled.div`
@@ -83,7 +85,6 @@ export const Modal = styled.div`
 export const ModalContent = styled.div`
   position: relative;
   z-index: 1;
-  margin: auto;
   padding: 32px;
   background-color: ${cores.rosa};
 
@@ -99,7 +100,8 @@ export const ModalContent = styled.div`
     color: ${cores.branco};
     font-size: 14px;
     line-height: 22px;
-    padding: 8px;
+    text-align: start;
+    margin: 16px 0;
   }
 
   img {

@@ -21,8 +21,8 @@ const Comida = ({ comida }: Props) => {
   const dispatch = useDispatch()
 
   const getDesricao = (descricao: string) => {
-    if (descricao.length > 72) {
-      return descricao.slice(0, 70) + '...'
+    if (descricao.length > 120) {
+      return descricao.slice(0, 156) + '...'
     }
   }
 

@@ -10,7 +10,7 @@ import { RootReducer } from '../../store'
 import { formataPreco } from '../Comida'
 
 import * as S from './styles'
-import trash from '../../assets/images/lixeira.png'
+import trash from '../../assets/images/lixeira.svg'
 import { CartEmpty } from '../cartEmpty'
 
 const Cart = () => {

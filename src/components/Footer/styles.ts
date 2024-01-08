@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { cores } from '../../style'
 
 export const Container = styled.footer`
-  padding: 80px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,14 +11,12 @@ export const Container = styled.footer`
 
   img {
     width: 124px;
-    margin: 0 auto;
-    margin-botto: 32px;
   }
 `
 
 export const RedesSociais = styled.ul`
   display: flex;
-  margin-top: 32px;
+  margin-top: 28px;
   margin-bottom: 80px;
 
   img {
@@ -26,7 +24,7 @@ export const RedesSociais = styled.ul`
   }
 
   li {
-    margin-left: 4px;
+    margin-left: 8px;
   }
 
   @media (max-width: 769px) {
@@ -37,6 +35,5 @@ export const RedesSociais = styled.ul`
 
 export const Disclaimer = styled.p`
   text-align: center;
-  font-size: 1rem;
-  width: 720px;
+  font-size: 10px;
 `

@@ -29,13 +29,14 @@ export const ResCabecalho = styled.header`
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 36px 24px 48px 24px;
+  padding: 36px 0px 48px 0px;
   align-items: center;
 
   h4 {
     cursor: pointer;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 21px;
 
     @media (max-width: 767px) {
       font-size: 16px;
@@ -45,7 +46,7 @@ export const Container = styled.div`
   p {
     cursor: pointer;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   @media (max-width: 768px) {
@@ -102,6 +103,7 @@ export const Idem = styled.div`
     cursor: pointer;
     color: ${cores.branco};
     font-size: 32px;
+    font-weight: 100;
   }
 
   @media (max-width: 768px) {
