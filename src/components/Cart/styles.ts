@@ -35,7 +35,7 @@ export const SideBar = styled.aside`
   color: ${cores.rosaClaro};
   background-color: ${cores.rosa};
   z-index: 1;
-  width: 360px;
+  width: 320px;
   padding: 32px 8px 0 8px;
 
   .margin-top {
@@ -73,9 +73,9 @@ export const CartItem = styled.li`
   & > img {
     margin-right: 8px;
     margin-bottom: 4px;
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
   }
 
   h4 {
