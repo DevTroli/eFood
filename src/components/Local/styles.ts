@@ -61,7 +61,7 @@ export const Tag = styled.span`
   background-color: ${cores.rosa};
   color: ${cores.branco};
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   margin-right: 8px;
 `
