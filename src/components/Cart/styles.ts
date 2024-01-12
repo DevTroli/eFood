@@ -73,9 +73,9 @@ export const CartItem = styled.li`
   & > img {
     margin-right: 8px;
     margin-bottom: 4px;
-    max-width: 80px;
-    max-height: 80px;
-    object-fit: contain;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
   }
 
   h4 {
@@ -118,6 +118,7 @@ export const Botao = styled.button`
   margin-bottom: 8px;
   height: 24px;
   font-size: 14px;
+  font-weight: bold;
 `
 
 export const Conteudo = styled.form`
@@ -145,6 +146,7 @@ export const InputGroup = styled.div<Props>`
   label {
     margin-bottom: 8px;
     font-size: 14px;
+    font-weight: bold;
   }
 
   input {

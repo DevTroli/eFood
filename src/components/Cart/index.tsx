@@ -376,7 +376,7 @@ const Cart = () => {
           </>
         ) : (
           <>
-            <h3>Pedido Concluido com Sucesso - {data?.orderId}</h3>
+            <h3>Pedido realizado - {data?.orderId}</h3>
             <p>
               Estamos felizes em informar que seu pedido foi realizado sendo, e
               já está em processo de preparação e, em breve, será entregue no
