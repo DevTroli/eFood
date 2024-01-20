@@ -264,10 +264,14 @@ const Cart = () => {
                     </S.Row>
                     <S.Botao
                       className="margin-top"
-                      type="button"
-                      onClick={() => setIsPaying(true)}
+                      type="submit"
+                      onClick={() => {
+                        if (!form.isValid) {
+                          setIsPaying(true)
+                        }
+                      }}
                     >
-                      Continuar com o pagamento
+                      Continuar para pagamento
                     </S.Botao>
                     <S.Botao
                       type="button"
